@@ -1,3 +1,29 @@
+if nomorBot == 1 then
+	worldDrop = "SJXO8AUWBDBD"
+	worldBreak = "S3DVKQBQ"
+	idBreak = "MORI11"
+	farmworlds = {"8734hfb3dn02","nuef87hddu03","eyuf873bhe04","uif832idjn05","brfrijfbhw06","befjibhedi07","ajfnuiahna08","bhg98su8ew09","bh98uefndd10"}
+	link = "https://discordapp.com/api/webhooks/1277214389816262668/buGEFSyg7b4k3HNLxdZw5OBOa3inx43Y8MNnDUOYznzNek5car4kdlU8W2GumtG4-IM4"
+elseif nomorBot == 2 then
+	worldDrop = "SJXO8AU7BDBD"
+	worldBreak = "W3UWQGA7"
+	idBreak = "MORI11"
+	farmworlds = {"hfuihwefbh01","jvuhy3hcdu02","sv73egajdk03","bhfijwjrfa04","sfnuijfiwe05","eig89ehsjn06","esyf87ehfx07","duerw78sej08","efh874rhdj09","weury278bf10"}
+	link = "https://discordapp.com/api/webhooks/1277214607617949707/Smy_OaP4KkbdTPHUc6nFSrGTYq5PFC2OVYxNp7QesH9uQ7UxVwu9r2z7QdMV7bFFiUL2"
+elseif nomorBot == 3 then
+	worldDrop = "SJXO8AU7BDHD"
+	worldBreak = "MR79JCYF"
+	idBreak = "MORI11"
+	farmworlds = {"8t7fnjsfur01","eufhs87cer02","nieyr7w8hd03","uceyrfwcbu04","bhvijeuhij05","3t7sfzhcer06","woqe0i9ifs07","d735tye4r708","uwyrtwwdba09","bh89ehbd8h10"}
+	link = "https://discordapp.com/api/webhooks/1277214713847218246/1sKrRacd9rhZT_Nz9Tsbi1zKrPa8a2ftFyAXr5ERx3-JxnMPoGUjoXc3UKL4zLSW8Yit"
+elseif nomorBot == 4 then
+	worldDrop = "SFXO8AU7BDHD"
+	worldBreak = "77Z883AB"
+	idBreak = "MORI11"
+	farmworlds = {"74y53hfjnv01","weruw87ras02","uiery37bhd03","wiurg87kms04","q9u2398jss05","aidg3ejajn06","utey74etfs07","7tuehfnjef08","aiwhhw8rhn09","nifuhbhwif10"}
+	link = "https://discordapp.com/api/webhooks/1277214789025927168/AJ4vUV9F9qPLUqOUPkJ04MjCZeyrSvdYrKZ3Q2tS0r5WEVr3wJXVL7ZVVFOBr6UWMj9W"
+end
+
 local wb = Webhook.new(link)
 world = string.upper(farmworlds[startWorld])
 function deletehistory()
